@@ -1,8 +1,27 @@
-node_modules
-dist
-.DS_Store
-*.log
 pnpm-lock.json
-docker_volumes
-.env
+
+# db
 prisma/migrations
+
+# dependencies
+node_modules 
+
+# testing
+
+# production
+dist
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+*.log*
+
+# env files
+.env
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
